@@ -8,8 +8,10 @@ student_scores = [11, 34, 44, 0, 4, 8]
 student_scores = sorted(student_scores)
 
 highest = student_scores[0]
-    
+ 
+   
 for i in student_scores:
     if i>highest:
         highest = i
 print(f"The highest score in the class is: {highest}")
+
